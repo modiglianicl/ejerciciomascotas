@@ -66,7 +66,7 @@ const obtenerDatos = (event) => {
     event.preventDefault();
     // Reseteamos si ya habian datos puestos
     document.querySelector("#resultadoProceso").innerHTML = "";
-    document.querySelector("#resultado").innerHTML += ``;
+    document.querySelector("#resultado").innerHTML = ``;
     // Flags
     let nombreDuenoOk = 0;
     let numeroTelefonoOk = 0;
